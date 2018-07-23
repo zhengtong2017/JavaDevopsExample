@@ -1,6 +1,6 @@
 FROM openjdk:8-jre
 
-VOLUME /tmp/demo
+VOLUME /tmp/devops
 
 ARG JAR_FILE=target/demo-1.0.0-SNAPSHOT.jar
 COPY ${JAR_FILE} api.jar
